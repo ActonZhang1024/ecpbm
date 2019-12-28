@@ -73,7 +73,7 @@ public class AdminInfoController {
         return treeNodes;
     }
 
-    // 退出
+    // 退出,退出，退出后台系统
     @RequestMapping(value = "/logout", method = RequestMethod.GET)
     @ResponseBody
     public String logout(SessionStatus status) {
